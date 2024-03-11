@@ -10,6 +10,7 @@ class Program
         foreach (int num in tbl)
         {
             Console.WriteLine(num);
+            Console.Write(num+1);
         }
     }
 }
