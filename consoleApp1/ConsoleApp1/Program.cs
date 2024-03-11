@@ -22,7 +22,7 @@ class Program
         float test = Avg(tbl);
         Console.WriteLine(test);
         
-        int test2 = Max(tbl);
+        int test2 = Max2(tbl);
         Console.WriteLine(test2);
 
     }
@@ -41,7 +41,8 @@ class Program
 
     }
     
-    public static int MaxTwo(int[] tab)
+
+    public static int Max2(int[] tab)
     {
         int max = 0;
         foreach (int num in tab)
