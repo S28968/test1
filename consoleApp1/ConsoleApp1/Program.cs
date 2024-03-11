@@ -41,7 +41,7 @@ class Program
 
     }
     
-    public static int Max(int[] tab)
+    public static int MaxTwo(int[] tab)
     {
         int max = 0;
         foreach (int num in tab)
