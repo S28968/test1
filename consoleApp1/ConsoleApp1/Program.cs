@@ -10,8 +10,10 @@ class Program
         foreach (int num in tbl)
         {
             Console.WriteLine(num);
-            Console.Write(num+1);
+            Console.WriteLine(num+1);
             //test Mod2
         }
+        
+        Console.WriteLine("test3");
     }
 }
