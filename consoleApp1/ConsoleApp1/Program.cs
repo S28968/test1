@@ -7,7 +7,7 @@ class Program
     {
         Console.WriteLine("Hello, World!");
 
-        int[] tbl = { 1, 2, 3, 4 };
+        int[] tbl = { 1, 2, 5, 3, 4 };
 
         foreach (int num in tbl)
         {
@@ -21,6 +21,9 @@ class Program
 
         float test = Avg(tbl);
         Console.WriteLine(test);
+        
+        int test2 = Max(tbl);
+        Console.WriteLine(test2);
 
     }
     
@@ -35,6 +38,21 @@ class Program
         float result = sum/tab.Length;
 
         return result;
+
+    }
+    
+    public static int Max(int[] tab)
+    {
+        int max = 0;
+        foreach (int num in tab)
+        {
+            if (num > max)
+            {
+                max = num;
+            }
+        }
+
+        return max;
 
     }
 }
